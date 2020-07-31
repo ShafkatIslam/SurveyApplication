@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Survey Application</string>
+
+    <string-array name="user_product">
+
+        <item>Select</item>
+        <item>Very often</item>
+        <item>Often</item>
+        <item>Moderate</item>
+        <item>Not much</item>
+        <item>Never used</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9dada"
+    android:gravity="center"
+    tools:context=".SubmitActivity">
+
+    <Button
+        android:id="@+id/submitSurvey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Survey"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="19dp"
+        android:layout_above="@+id/terms"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_margin="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_rounded"
+        />
+
+</LinearLayout>

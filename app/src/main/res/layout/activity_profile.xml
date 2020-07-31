@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aeadad"
+        android:gravity="top|center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profilepic"
+            app:civ_border_width="2dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            app:civ_border_color="#3087a4"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d9dada"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="#030303"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:textColor="#020202"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Email"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#acacac"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/startSurvey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Survey"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:layout_above="@+id/terms"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_rounded"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/surveyList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Survey List"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:layout_marginTop="10dp"
+            android:layout_above="@+id/terms"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_rounded"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
